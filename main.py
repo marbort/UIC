@@ -1,6 +1,7 @@
 import os, sys, subprocess, shutil, argparse
 
 parser=argparse.ArgumentParser(description="Input Data")
+parser.add_argument( 'program', type=str, help='Define for which program the input is needed',)
 parser.add_argument( '--setup', dest='setup', type=str, help='initialize guided setup', default="")
 parser.add_argument( '--calc', dest='calc', type=str, help='calculation type', default="opt")
 parser.add_argument( '--bas', dest='bas', type=str, help='basis set type', default="6-31G")
@@ -10,7 +11,7 @@ args = parser.parse_args()
 
 
 if args.setup != "":
-    calc_typ=input("Calculation type \n 1 Optimization \n" + 
+    calc_typ=input("Calculation type \n 1 Optimization \n" +
         " 2 Optimization + Frequencies \n 3 Transition State \n 4 Other \n" )
     if calc_typ == "4":
         cust_par=input("Custom input line: ")
