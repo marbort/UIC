@@ -1,0 +1,4 @@
+{"task":"" ,"converge" : "", "iterations":"","quality":"","relativistic":"",
+"symmetry":"", "charge":"0\n", "IRC":"IRC\n", "LinearTransit":"scan", "opt":"", "n_points":"20\n",
+"scf_converge":"", "multiplicity":"1", "procs":"4","title":"MOLECULE\n", "mem":"16GB\n", "XC":"BLYP",
+"basis":"6-31G(d)"}
