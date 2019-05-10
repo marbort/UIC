@@ -1,0 +1,3 @@
+{"task":" " ,"converge" : "grad=1e-5\n", "iterations":"200\n","quality":"GOOD\n","relativistic":"RELATIVISTIC SCALAR ZORA\n",
+"symmetry":"NOSYM\n", "charge":"0\n", "IRC":"IRC\n", "LinearTransit":"LT\n", "opt":"", "TSRC":"TSRC\n", "n_points":"20\n",
+"scf_converge":"1e-6\n", "multiplicity":""}
